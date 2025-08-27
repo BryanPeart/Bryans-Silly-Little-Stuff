@@ -3,7 +3,7 @@
   "name": "bryans-silly-little-stuff",
   "title": "Bryans Silly Little Stuff",
   "description": "<p>Bryans shared compendium of things.</p>",
-  "version": "1.0",
+  "version": "#{VERSION}#",
   "minimumCoreVersion": "13",
   "compatibleCoreVersion": "13",
   "compatibility": {
