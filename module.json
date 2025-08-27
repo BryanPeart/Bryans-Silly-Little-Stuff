@@ -12,20 +12,19 @@
   },
   "author": "Bryan",
   "authors": [
-      {
-        "name": "Bryan",
-        "email": "Bryan@peart.org",
-        "url": "https://bryanpeart.com/",
-        "discord": "emrysofmyrdin",
-        "flags": {}
-      }
+    {
+      "name": "Bryan",
+      "email": "Bryan@peart.org",
+      "url": "https://bryanpeart.com/",
+      "discord": "emrysofmyrdin",
+      "flags": {}
+    }
   ],
   "packs": [
     {
       "name": "item-1-spells",
       "label": "Spells (Shared)",
       "path": "packs/item-1-spells.db",
-      "entity": "Item",
       "type": "Item",
       "package": "bryans-silly-little-stuff"
     },
@@ -33,7 +32,6 @@
       "name": "item-2-items",
       "label": "Items (Shared)",
       "path": "packs/item-2-items.db",
-      "entity": "Item",
       "type": "Item",
       "package": "bryans-silly-little-stuff"
     },
@@ -41,7 +39,6 @@
       "name": "item-3-class-features",
       "label": "Class Features (Shared)",
       "path": "packs/item-3-class-features.db",
-      "entity": "Item",
       "type": "Item",
       "package": "bryans-silly-little-stuff"
     },
@@ -49,7 +46,6 @@
       "name": "macro-1-macros",
       "label": "Macros (Shared)",
       "path": "packs/macro-1-macros.db",
-      "entity": "Macro",
       "type": "Macro",
       "package": "bryans-silly-little-stuff"
     }
@@ -61,7 +57,7 @@
       "color": "#3f8230",
       "packs": [
         "item-1-spells",
-		"item-2-items",
+        "item-2-items",
         "item-3-class-features",
         "macro-1-macros"
       ]
@@ -69,27 +65,14 @@
   ],
   "relationships": {
     "systems": [
-      {
-        "id": "dnd5e"
-      }
+      { "id": "dnd5e" }
     ],
     "requires": [
-      {
-        "id": "times-up",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "dae",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "itemacro",
-        "type": "module",
-        "compatibility": {}
-      }
-    ],
+      { "id": "times-up", "type": "module", "compatibility": {} },
+      { "id": "dae", "type": "module", "compatibility": {} },
+      { "id": "itemacro", "type": "module", "compatibility": {} }
+    ]
+  },
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
@@ -101,5 +84,4 @@
       "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
     }
   ]
-  }
 }
