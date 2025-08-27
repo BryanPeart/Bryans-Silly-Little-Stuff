@@ -1,26 +1,94 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
-  "version": "0.0.1",
-  "minimumCoreVersion": "0.6.2",
-  "compatibleCoreVersion": "0.7.2",
-  "author": "Cody Swendrowski <cody@swendrowski.us>",
-  "dependencies": [
-
+  "id": "bryans-silly-little-stuff",
+  "name": "bryans-silly-little-stuff",
+  "title": "Bryans Silly Little Stuff",
+  "description": "<p>Bryans shared compendium of things.</p>",
+  "version": "1.0",
+  "minimumCoreVersion": "13",
+  "compatibleCoreVersion": "13",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "author": "Bryan",
+  "authors": [
+      {
+        "name": "Bryan",
+        "email": "Bryan@peart.org",
+        "url": "https://bryanpeart.com/",
+        "discord": "emrysofmyrdin",
+        "flags": {}
+      }
   ],
-  "esmodules": [
-    "/scripts/module.js"
+  "packs": [
+    {
+      "name": "item-1-spells",
+      "label": "Spells (Shared)",
+      "path": "packs/item-1-spells.db",
+      "entity": "Item",
+      "type": "Item",
+      "package": "bryans-silly-little-stuff"
+    },
+    {
+      "name": "item-2-items",
+      "label": "Items (Shared)",
+      "path": "packs/item-2-items.db",
+      "entity": "Item",
+      "type": "Item",
+      "package": "bryans-silly-little-stuff"
+    },
+    {
+      "name": "item-3-class-features",
+      "label": "Class Features (Shared)",
+      "path": "packs/item-3-class-features.db",
+      "entity": "Item",
+      "type": "Item",
+      "package": "bryans-silly-little-stuff"
+    },
+    {
+      "name": "macro-1-macros",
+      "label": "Macros (Shared)",
+      "path": "packs/macro-1-macros.db",
+      "entity": "Macro",
+      "type": "Macro",
+      "package": "bryans-silly-little-stuff"
+    }
   ],
-  "scripts": [
-    "/scripts/lib/lib.js"
+  "packFolders": [
+    {
+      "name": "Bryans Silly Little Stuff",
+      "sorting": "m",
+      "color": "#3f8230",
+      "packs": [
+        "item-1-spells",
+		"item-2-items",
+        "item-3-class-features",
+        "macro-1-macros"
+      ]
+    }
   ],
-  "styles": [
-    "/styles/module.css"
-  ],
-  "languages": [
-  ],
-  "url": "https://github.com/cswendrowski/FoundryVTT-module",
-  "manifest": "https://github.com/cswendrowski/FoundryVTT-module/releases/download/latest/module.json",
-  "download": "https://github.com/cswendrowski/FoundryVTT-module/releases/download/0.0.1/module.zip"
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e"
+      }
+    ],
+    "requires": [
+      {
+        "id": "times-up",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "itemacro",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
 }
