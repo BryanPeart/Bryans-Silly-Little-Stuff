@@ -1,3 +1,4 @@
 2025/08/27-13:54:18.011437 3104aa000 Recovering log #7
 2025/08/27-13:54:18.012034 3104aa000 Delete type=0 #7
 2025/08/27-13:54:18.012080 3104aa000 Delete type=3 #4
+2025/08/27-15:21:44.692776 309a8d000 Manual compaction at level-0 from '!folders!AAfSHuFJKM48MbKo' @ 72057594037927935 : 1 .. '!items.effects!tGuZkLxuYzrVMSlM.9bbgQd8ez4V1yP5v' @ 0 : 0; will stop at (end)

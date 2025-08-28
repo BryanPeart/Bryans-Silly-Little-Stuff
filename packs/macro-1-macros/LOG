@@ -1,3 +1,4 @@
 2025/08/27-13:54:18.015018 30fca7000 Recovering log #6
 2025/08/27-13:54:18.015566 30fca7000 Delete type=0 #6
 2025/08/27-13:54:18.015620 30fca7000 Delete type=3 #4
+2025/08/27-15:21:44.692126 309a8d000 Manual compaction at level-0 from 'undefined' @ 72057594037927935 : 1 .. 'undefined' @ 0 : 0; will stop at (end)

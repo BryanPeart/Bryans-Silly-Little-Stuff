@@ -1,3 +1,4 @@
 2025/08/27-13:54:18.005940 30f4a4000 Recovering log #7
 2025/08/27-13:54:18.006389 30f4a4000 Delete type=0 #7
 2025/08/27-13:54:18.006427 30f4a4000 Delete type=3 #4
+2025/08/27-15:21:44.691326 309a8d000 Manual compaction at level-0 from '!items!5WGSwGRrxc7Jt0Lm' @ 72057594037927935 : 1 .. '!items!5WGSwGRrxc7Jt0Lm' @ 0 : 0; will stop at (end)
